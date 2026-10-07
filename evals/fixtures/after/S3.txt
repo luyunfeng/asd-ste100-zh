@@ -1,0 +1,6 @@
+部署步骤：
+1. 修改 config.yaml 中的 replicas 参数。
+2. 运行 make build 构建镜像。
+3. 运行 kubectl apply -f deploy.yaml 部署到集群。
+4. 用 curl localhost:8080/healthz 验证服务。
+5. 更新告警规则 alerts.yaml。

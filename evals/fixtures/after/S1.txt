@@ -1,0 +1,1 @@
+数据库连接失败。两个可能的原因：网络中断、连接配置错误。处理步骤：1. 检查 database.host 和 database.port 配置。2. 用 ping database.host 测试网络。3. 两步都正常仍报错时，联系值班的 SRE。
